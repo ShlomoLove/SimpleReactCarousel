@@ -1,0 +1,45 @@
+{
+  "name": "simplereactcarousel",
+  "version": "1.0.0",
+  "description": "React Carousel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -d --watch",
+    "start": "nodemon server/index.js",
+    "seed": "node ./database/seed/seedData.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShlomoLove/SimpleReactCarousel.git"
+  },
+  "author": "Scott Nassau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShlomoLove/SimpleReactCarousel/issues"
+  },
+  "homepage": "https://github.com/ShlomoLove/SimpleReactCarousel#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.0.0",
+    "axios": "^0.19.0",
+    "babel-loader": "^8.0.6",
+    "body-parser": "^1.19.0",
+    "classnames": "^2.2.6",
+    "cors": "^2.8.5",
+    "css-loader": "^2.1.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.5.11",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "react": "^16.8.6",
+    "react-devtools": "^3.6.1",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-combine-loaders": "^2.0.4"
+  }
+}
