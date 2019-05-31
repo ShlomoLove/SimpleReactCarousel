@@ -1,0 +1,92 @@
+.outsideContainer {
+  display: flex; 
+  border: solid red;
+  flex-direction: column;
+}
+
+.chevron {
+  font-size: 1.5em;
+  color: lightgray;
+  font-weight: lighter;
+  text-align: center;
+  z-index: 20;
+} 
+
+.chevron:hover {
+  color: darkgray; 
+  cursor: pointer;
+}
+  
+.chevronUp {
+  padding-top: 1em; 
+  text-align: center;
+  width: 100%;
+  size: 100%;
+  z-index: 20;
+}
+  
+.chevronDown {
+  text-align: center;
+  width: 100%;
+  size: 100%;
+  z-index: 20;
+}
+
+.sliderContainer{
+  border: solid orange; 
+  display: block;
+  margin-right: 1em;
+  /* width: 12em; */
+  width: auto;
+  justify-content: center;
+  margin-left: 1em;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  box-sizing: border-box; 
+}
+
+.photoSlider {
+  border: solid blue; 
+  height: 568px;
+  width: 110px;
+  left: 15px;
+  white-space: nowrap; 
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumbnail {
+  display: block;
+  position: relative;
+  height: 85px;
+  width: 85px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: transform .6s cubic-bezier(.3,0,.45,1);
+}
+
+/* .selectedThumbnail {
+  display: inline-block;
+  flex-grow: 0;
+  flex-shrink: 0;
+  position: relative;
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+  cursor: pointer;
+  border-bottom: 2px solid #000;
+  border-top: 2px solid #000;
+  box-sizing: border-box;
+} */
+
+.thumbnailImage {
+  height: 77px;
+  width: 77px;
+  padding: 6px;
+  border: solid dodgerblue; 
+} 
+

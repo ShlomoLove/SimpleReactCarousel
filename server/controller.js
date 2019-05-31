@@ -1,7 +1,7 @@
 const db = require ('../database/index.js');
 
 const getItem = (req, res) => {
-  db.findPics({_id: req.params.id})
+  db.findOne({_id: req.params.id})
   .then(pics => {
     res.json(pics)
   })
